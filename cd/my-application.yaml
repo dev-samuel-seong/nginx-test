@@ -13,9 +13,9 @@ spec:
   source:
     helm:
       valueFiles:
-      - ci/my-values.yaml
-    path: nginx-webserver/nginx-15.1.0
-    repoURL: https://github.com/junghoon2/k8s-class.git
+      - my-values.yaml
+    path: ci
+    repoURL: https://github.com/dev-samuel-seong/nginx-test.git
     targetRevision: HEAD
   syncPolicy:
     automated:
